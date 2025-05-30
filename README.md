@@ -23,8 +23,34 @@
 
 </div>
 
+## 🎯 Overview
+
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+</div>
+
+A modern Tea House Management System with a beautiful dark-themed UI. Built with Python and CustomTkinter, it offers a seamless experience for managing your tea house operations.
+
+## 📸 Screenshots
+
+<div align="center">
+
+### 🔐 Login & Registration
+<img src="assets/screenshots/login.png" width="400" alt="Login Screen">
+<img src="assets/screenshots/register.png" width="400" alt="Registration Screen">
+
+### 📊 Dashboard & Analytics
+<img src="assets/screenshots/dashboard.png" width="800" alt="Dashboard">
+
+### 📦 Product Management
+<img src="assets/screenshots/products.png" width="800" alt="Products">
+<img src="assets/screenshots/add-product.png" width="400" alt="Add Product">
+<img src="assets/screenshots/barcode.png" width="400" alt="Barcode Scanner">
+
+### 📈 Reports & Settings
+<img src="assets/screenshots/reports.png" width="800" alt="Reports">
+<img src="assets/screenshots/settings.png" width="800" alt="Settings">
+
 </div>
 
 ## ✨ Features
