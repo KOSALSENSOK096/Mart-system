@@ -21,35 +21,56 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
 
-[![Watch Demo](https://img.shields.io/badge/Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](docs/video-landing.md)
-[![Documentation](https://img.shields.io/badge/Documentation-7C5DFA?style=for-the-badge&logo=gitbook&logoColor=white)](../../wiki)
-[![Download](https://img.shields.io/badge/Download-24B47E?style=for-the-badge&logo=github&logoColor=white)](../../releases)
+<br/>
+
+<p align="center">
+  <a href="docs/video-landing.md">
+    <img src="https://img.shields.io/badge/🎥_Watch_Demo-FF0000?style=for-the-badge&logoColor=white" alt="Watch Demo"/>
+  </a>
+  <a href="../../wiki">
+    <img src="https://img.shields.io/badge/📚_Documentation-7C5DFA?style=for-the-badge&logoColor=white" alt="Documentation"/>
+  </a>
+  <a href="../../releases">
+    <img src="https://img.shields.io/badge/⬇️_Download-24B47E?style=for-the-badge&logoColor=white" alt="Download"/>
+  </a>
+</p>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-### 🌟 Key Features
+<div align="center">
+  <h3>🌟 Powerful Features for Modern Business</h3>
+  <p>Experience the next generation of mart management</p>
+</div>
 
 <table>
 <tr>
-<td align="center">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="60" alt="Authentication"/>
+<td align="center" width="25%">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="80" alt="Modern UI"/>
 <br/>
 <strong>Modern UI</strong>
+<br/>
+<sub>Beautiful & Intuitive</sub>
 </td>
-<td align="center">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="60" alt="Dashboard"/>
+<td align="center" width="25%">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="80" alt="Real-time"/>
 <br/>
 <strong>Real-time Data</strong>
+<br/>
+<sub>Live Updates</sub>
 </td>
-<td align="center">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3c16d4f2-b59d-4768-86f8-481843a3de6d" width="60" alt="Products"/>
+<td align="center" width="25%">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3c16d4f2-b59d-4768-86f8-481843a3de6d" width="80" alt="Analytics"/>
 <br/>
 <strong>Analytics</strong>
+<br/>
+<sub>Smart Insights</sub>
 </td>
-<td align="center">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/937a0e3e-b877-4893-ab3f-d27fb3bb9d77" width="60" alt="Reports"/>
+<td align="center" width="25%">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/937a0e3e-b877-4893-ab3f-d27fb3bb9d77" width="80" alt="Cloud"/>
 <br/>
 <strong>Cloud Sync</strong>
+<br/>
+<sub>Always Connected</sub>
 </td>
 </tr>
 </table>
@@ -260,9 +281,22 @@ mart-system/
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:support@martmanager.com)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+<a href="mailto:support@martmanager.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="https://discord.gg/martmanager">
+  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+</a>
+<a href="https://twitter.com/martmanager">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+</a>
+
+<br/>
+<br/>
+
+### 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=KOSALSENSOK096/Mart-system&type=Date)](https://star-history.com/#KOSALSENSOK096/Mart-system&Date)
 
 </div>
 
@@ -278,9 +312,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KOSALSENSOK096)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kosalsensok)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://kosalsensok.dev)
+<a href="https://github.com/KOSALSENSOK096">
+  <img src="https://img.shields.io/badge/Follow_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://linkedin.com/in/kosalsensok">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://kosalsensok.dev">
+  <img src="https://img.shields.io/badge/Visit_Portfolio-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Portfolio"/>
+</a>
+
+<br/>
+<br/>
+
+[![Profile Views](https://komarev.com/ghpvc/?username=KOSALSENSOK096&color=6B5DFA&style=for-the-badge&label=Profile+Views)](https://github.com/KOSALSENSOK096)
 
 ⭐ Star this project if you find it helpful!
 
