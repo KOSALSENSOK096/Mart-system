@@ -12,14 +12,27 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
       
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
+          check-latest: true
+      
+      - name: Cache pip packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+        continue-on-error: true
           
       - name: Create environment file
         run: |
@@ -27,29 +40,41 @@ jobs:
           
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          
+          python -m pip install --upgrade pip --no-cache-dir
+          pip install --no-cache-dir wheel setuptools
+          if [ -f requirements.txt ]; then
+            pip install --no-cache-dir -r requirements.txt
+          fi
+        
       - name: Run tests
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
           if [ -d tests ]; then
-            python -m pytest tests/
+            python -m pytest tests/ --cache-clear
           fi
         
       - name: Build and verify
         run: |
           echo "Building and verifying project..."
-          # Add your build steps here
+          python -c "import sys; print(f'Python {sys.version}')"
+          python -c "import platform; print(f'Platform: {platform.platform()}')"
           
       - name: Upload artifact
         uses: actions/upload-artifact@v3
+        if: success()
         with:
-          name: mart-system
+          name: mart-system-${{ github.sha }}
           path: |
             .
             !.git
             !.github
             !tests
-          retention-days: 5 
+            !**/__pycache__
+            !**.pyc
+          retention-days: 5
+        
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf ~/.cache/pip 
