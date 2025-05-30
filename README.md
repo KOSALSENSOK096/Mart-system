@@ -4,9 +4,22 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=6B5DFA&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+Mart+System;Modern+Tea+House+Management;Built+with+%E2%9D%A4%EF%B8%8F+and+Python;Elegant+%26+Beautiful+UI)](https://github.com/KOSALSENSOK096/Mart-system)
 
-<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
+<a href="https://github.com/KOSALSENSOK096/Mart-system">
+    <img src="https://img.shields.io/github/stars/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=6B5DFA" alt="GitHub stars">
+</a>
+<a href="https://github.com/KOSALSENSOK096/Mart-system/network">
+    <img src="https://img.shields.io/github/forks/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=git&color=6B5DFA" alt="GitHub forks">
+</a>
+<a href="https://github.com/KOSALSENSOK096/Mart-system/issues">
+    <img src="https://img.shields.io/github/issues/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=6B5DFA" alt="GitHub issues">
+</a>
+<a href="https://github.com/KOSALSENSOK096/Mart-system/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=6B5DFA" alt="License">
+</a>
 
 <br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
 
 [![Watch Demo](https://img.shields.io/badge/Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](docs/video-landing.md)
 [![Documentation](https://img.shields.io/badge/Documentation-7C5DFA?style=for-the-badge&logo=gitbook&logoColor=white)](../../wiki)
@@ -14,14 +27,32 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
+### 🌟 Key Features
+
+<table>
+<tr>
+<td align="center">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="60" alt="Authentication"/>
 <br/>
-
-[<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="24" /> Demo](docs/video-landing.md) &nbsp;&nbsp;|&nbsp;&nbsp; 
-[📚 Docs](../../wiki) &nbsp;&nbsp;|&nbsp;&nbsp; 
-[🐛 Issues](../../issues) &nbsp;&nbsp;|&nbsp;&nbsp; 
-[🎯 Roadmap](../../projects)
-
-</div>
+<strong>Modern UI</strong>
+</td>
+<td align="center">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="60" alt="Dashboard"/>
+<br/>
+<strong>Real-time Data</strong>
+</td>
+<td align="center">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3c16d4f2-b59d-4768-86f8-481843a3de6d" width="60" alt="Products"/>
+<br/>
+<strong>Analytics</strong>
+</td>
+<td align="center">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/937a0e3e-b877-4893-ab3f-d27fb3bb9d77" width="60" alt="Reports"/>
+<br/>
+<strong>Cloud Sync</strong>
+</td>
+</tr>
+</table>
 
 ## 🎥 Demo Video Showcase
 
@@ -243,10 +274,35 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Made with ❤️ by [KOSAL SENSOK](https://github.com/KOSALSENSOK096)
 
+<div align="center">
+
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 
-[![Profile](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KOSALSENSOK096)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KOSALSENSOK096)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kosalsensok)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://kosalsensok.dev)
 
 ⭐ Star this project if you find it helpful!
+
+</div>
+
+## 💻 Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+## 🌟 Project Status
+
+<div align="center">
+
+![Development Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=git&logoColor=white)
+![Last Commit](https://img.shields.io/github/last-commit/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=git&color=blue)
+![Release Version](https://img.shields.io/github/v/release/KOSALSENSOK096/Mart-system?style=for-the-badge&color=purple)
 
 </div>
