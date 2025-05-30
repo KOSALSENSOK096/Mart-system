@@ -1,0 +1,55 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  PYTHON_VERSION: '3.8.18'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          
+      - name: Create environment file
+        run: |
+          echo "PYTHON_VERSION=${{ env.PYTHON_VERSION }}" > .env
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          
+      - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          if [ -d tests ]; then
+            python -m pytest tests/
+          fi
+        
+      - name: Build and verify
+        run: |
+          echo "Building and verifying project..."
+          # Add your build steps here
+          
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: mart-system
+          path: |
+            .
+            !.git
+            !.github
+            !tests
+          retention-days: 5 
