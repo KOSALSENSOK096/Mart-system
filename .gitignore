@@ -20,43 +20,32 @@ wheels/
 .installed.cfg
 *.egg
 
-# Logs
-logs/
-*.log
-
-# Local configuration
-config.py
-.env
-
-# Database
-*.sqlite3
-*.db
-
-# Backups
-backups/
-
-# Temporary files
-temp/
-.temp/
-*.tmp
-
-# IDE specific files
-.idea/
-.vscode/
-*.swp
-*.swo
-.project
-.pydevproject
-
-# Operating System
-.DS_Store
-Thumbs.db
-
 # Virtual Environment
 venv/
 env/
 ENV/
 
-# Generated files
-barcode_images/
-receipts/ 
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Local configuration
+config.py
+.env
+
+# System Files
+.DS_Store
+Thumbbs.db
+
+# Application specific
+receipts/
+temp/
+backups/
+barcode_images/ 
