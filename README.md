@@ -2,58 +2,31 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=6B5DFA&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+Mart+System;Modern+Tea+House+Management;Built+with+%E2%9D%A4%EF%B8%8F+and+Python)](https://github.com/KOSALSENSOK096/Mart-system)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=6B5DFA&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+Mart+System;Modern+Tea+House+Management;Built+with+%E2%9D%A4%EF%B8%8F+and+Python;Elegant+%26+Beautiful+UI)](https://github.com/KOSALSENSOK096/Mart-system)
 
 <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
 
 <br/>
 
-[![GitHub Stars](https://img.shields.io/github/stars/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=7C5DFA)](https://github.com/KOSALSENSOK096/Mart-system/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=7C5DFA)](https://github.com/KOSALSENSOK096/Mart-system/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=FF4B6E)](https://github.com/KOSALSENSOK096/Mart-system/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=24B47E)](https://github.com/KOSALSENSOK096/Mart-system/pulls)
-[![GitHub License](https://img.shields.io/github/license/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=7C5DFA)](https://github.com/KOSALSENSOK096/Mart-system/blob/main/LICENSE)
+<a href="https://github.com/KOSALSENSOK096/Mart-system/stargazers">
+<img src="https://img.shields.io/github/stars/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=7C5DFA&logoColor=D9E0EE&labelColor=302D41"></a>
+<a href="https://github.com/KOSALSENSOK096/Mart-system/issues">
+<img src="https://img.shields.io/github/issues/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=gitbook&color=FF4B6E&logoColor=D9E0EE&labelColor=302D41"></a>
+<a href="https://github.com/KOSALSENSOK096/Mart-system/blob/main/LICENSE">
+<img src="https://img.shields.io/github/license/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=powerpages&color=24B47E&logoColor=D9E0EE&labelColor=302D41"></a>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <br/>
 
-[<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="32" /> Live Demo](#) &nbsp;&nbsp;|&nbsp;&nbsp; 
-[📝 Documentation](#) &nbsp;&nbsp;|&nbsp;&nbsp; 
-[🐛 Report Bug](../../issues) &nbsp;&nbsp;|&nbsp;&nbsp; 
-[✨ Request Feature](../../issues)
+[<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="24" /> Demo](../../) &nbsp;&nbsp;|&nbsp;&nbsp; 
+[📚 Docs](../../wiki) &nbsp;&nbsp;|&nbsp;&nbsp; 
+[🐛 Issues](../../issues) &nbsp;&nbsp;|&nbsp;&nbsp; 
+[🎯 Roadmap](../../projects)
 
 </div>
 
-## 🎯 Overview
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-</div>
-
-A modern Tea House Management System with a beautiful dark-themed UI. Built with Python and CustomTkinter, it offers a seamless experience for managing your tea house operations.
-
-## 📸 Screenshots
-
-<div align="center">
-
-### 🔐 Login & Registration
-<img src="assets/screenshots/login.png" width="400" alt="Login Screen">
-<img src="assets/screenshots/register.png" width="400" alt="Registration Screen">
-
-### 📊 Dashboard & Analytics
-<img src="assets/screenshots/dashboard.png" width="800" alt="Dashboard">
-
-### 📦 Product Management
-<img src="assets/screenshots/products.png" width="800" alt="Products">
-<img src="assets/screenshots/add-product.png" width="400" alt="Add Product">
-<img src="assets/screenshots/barcode.png" width="400" alt="Barcode Scanner">
-
-### 📈 Reports & Settings
-<img src="assets/screenshots/reports.png" width="800" alt="Reports">
-<img src="assets/screenshots/settings.png" width="800" alt="Settings">
-
-</div>
-
-## ✨ Features
+## ✨ Highlights
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="100">
@@ -61,103 +34,100 @@ A modern Tea House Management System with a beautiful dark-themed UI. Built with
 
 <br/>
 
+<div align="center">
+
+| 🎨 Modern UI | 🔒 Security | 📊 Analytics | 🛠️ Features |
+|-------------|------------|-------------|-------------|
+| Dark Theme | User Authentication | Sales Tracking | Product Management |
+| Animations | Role-based Access | Revenue Reports | Inventory Control |
+| Responsive | Data Encryption | Performance Stats | Barcode Scanner |
+| Elegant Design | Session Management | Custom Reports | Multi-user Support |
+
+</div>
+
+## 🖥️ Screenshots
+
+<div align="center">
+
+<details>
+<summary>🔐 Authentication</summary>
+<br/>
+
+### Login Screen
+<img src="assets/screenshots/login.png" width="400" alt="Login">
+
+### Registration
+<img src="assets/screenshots/register.png" width="400" alt="Register">
+
+</details>
+
+<details>
+<summary>📊 Main Features</summary>
+<br/>
+
+### Dashboard
+<img src="assets/screenshots/dashboard.png" width="800" alt="Dashboard">
+
+### Product Management
+<img src="assets/screenshots/products.png" width="800" alt="Products">
+
+</details>
+
+<details>
+<summary>🛠️ Tools & Settings</summary>
+<br/>
+
+### Quick Actions
 <table>
 <tr>
-<td>
-
-### 🔐 Security
-- User Authentication (Login/Register)
-- Role-based Access Control (Admin/Staff)
-- Secure Password Hashing with BCrypt
-- Session Management & Protection
-- Data Encryption
-
-</td>
-<td>
-
-### 📊 Management
-- Product Management & Inventory
-- Sales Tracking & Analytics
-- User Management System
-- Comprehensive Reports
-- Automated Backups
-
-</td>
-</tr>
-<tr>
-<td>
-
-### 🎨 Modern UI
-- Dark Theme Support
-- Responsive Design
-- Beautiful Animations
-- Intuitive Interface
-- Custom Styling
-
-</td>
-<td>
-
-### 🛠️ Technical
-- Python 3.8+ Compatible
-- MySQL Database
-- Modular Architecture
-- Extensible Design
-- Regular Updates
-
-</td>
+<td><img src="assets/screenshots/add-product.png" width="400" alt="Add Product"></td>
+<td><img src="assets/screenshots/barcode.png" width="400" alt="Barcode Scanner"></td>
 </tr>
 </table>
 
-## 🚀 Technologies
+### System Management
+<table>
+<tr>
+<td><img src="assets/screenshots/reports.png" width="400" alt="Reports"></td>
+<td><img src="assets/screenshots/settings.png" width="400" alt="Settings"></td>
+</tr>
+</table>
 
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![CustomTkinter](https://img.shields.io/badge/CustomTkinter-FF6B6B?style=for-the-badge&logo=python&logoColor=white)](https://github.com/TomSchimansky/CustomTkinter)
-[![BCrypt](https://img.shields.io/badge/BCrypt-2A2A2A?style=for-the-badge&logo=lock&logoColor=white)](https://pypi.org/project/bcrypt/)
-
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
+</details>
 
 </div>
 
-## 🌟 Quick Start
+## 🚀 Quick Start
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="500">
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="400">
 </div>
 
-### Prerequisites
 ```bash
-Python 3.8+
-MySQL 5.7+
-Git
-```
+# Clone repository
+git clone https://github.com/KOSALSENSOK096/Mart-system.git
 
-### One-Line Install
-```bash
-git clone https://github.com/KOSALSENSOK096/Mart-system.git && cd Mart-system && pip install -r requirements.txt
-```
+# Navigate to directory
+cd Mart-system
 
-### Run Application
-```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
 python main.py
 ```
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```bash
 mart-system/
-├── 🖼️ assets/           # Static assets & resources
-├── 💾 backups/         # Automated system backups
-├── 📝 logs/            # System & error logs
-├── 🧾 receipts/        # Generated sale receipts
-├── 📂 temp/            # Temporary files
-├── ⚙️ utils/           # Utility & helper functions
-├── 🎨 views/           # UI components & views
-├── ⚡ config.py        # System configuration
-├── 🚀 main.py          # Application entry
-└── 📦 requirements.txt # Dependencies
+├── 🎨 assets/          # Images and resources
+├── 📚 docs/            # Documentation
+├── 🧪 tests/           # Test files
+├── 🛠️ utils/           # Utility functions
+├── 📱 views/           # UI components
+├── 📝 README.md        # Documentation
+└── 🚀 main.py         # Entry point
 ```
 
 ## 🤝 Contributing
@@ -166,69 +136,34 @@ mart-system/
 <img src="https://user-images.githubusercontent.com/74038190/214644145-264f4759-7633-441e-9d67-d8dda9d50d26.gif" width="200">
 </div>
 
-1. 🍴 Fork the Project
-2. 🌱 Create your Feature Branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. 💫 Commit your Changes
-   ```bash
-   git commit -m '✨ Add some AmazingFeature'
-   ```
-4. 📤 Push to the Branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
+1. 🍴 Fork the repository
+2. 🌱 Create your feature branch (`git checkout -b feature/amazing`)
+3. 💫 Commit changes (`git commit -m "✨ Amazing feature"`)
+4. 📤 Push to branch (`git push origin feature/amazing`)
 5. 🔄 Open a Pull Request
 
-## 📫 Support & Contact
-
-<table>
-<tr>
-<td>
-
-### 📱 Social
-- Twitter: [@MartManager](#)
-- Discord: [Join Server](#)
-- LinkedIn: [Connect](#)
-
-</td>
-<td>
-
-### 📧 Direct
-- Email: support@martmanager.com
-- Website: www.martmanager.com
-- Phone: +XXX-XXX-XXXX
-
-</td>
-</tr>
-</table>
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## 💫 Support & Contact
 
 <div align="center">
 
-### Built With Amazing Tools
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:support@martmanager.com)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
 
-[![CustomTkinter](https://img.shields.io/badge/CustomTkinter-FF6B6B?style=for-the-badge&logo=python&logoColor=white)](https://github.com/TomSchimansky/CustomTkinter)
-[![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
+</div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+## 📝 License
+
+<div align="center">
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Made with ❤️ by [KOSAL SENSOK](https://github.com/KOSALSENSOK096)
 
-<br/>
-
-[![Follow](https://img.shields.io/github/followers/KOSALSENSOK096?style=for-the-badge&logo=github&color=7C5DFA&logoColor=white)](https://github.com/KOSALSENSOK096)
-[![Star](https://img.shields.io/github/stars/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=24B47E&logoColor=white)](https://github.com/KOSALSENSOK096/Mart-system/stargazers)
-
-⭐ Star us on GitHub — it motivates us a lot!
-
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
+[![Profile](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KOSALSENSOK096)
+
+⭐ Star this project if you find it helpful!
 
 </div>
