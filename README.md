@@ -8,18 +8,15 @@
 
 <br/>
 
-<a href="https://github.com/KOSALSENSOK096/Mart-system/stargazers">
-<img src="https://img.shields.io/github/stars/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=github&color=7C5DFA&logoColor=D9E0EE&labelColor=302D41"></a>
-<a href="https://github.com/KOSALSENSOK096/Mart-system/issues">
-<img src="https://img.shields.io/github/issues/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=gitbook&color=FF4B6E&logoColor=D9E0EE&labelColor=302D41"></a>
-<a href="https://github.com/KOSALSENSOK096/Mart-system/blob/main/LICENSE">
-<img src="https://img.shields.io/github/license/KOSALSENSOK096/Mart-system?style=for-the-badge&logo=powerpages&color=24B47E&logoColor=D9E0EE&labelColor=302D41"></a>
+[![Watch Demo](https://img.shields.io/badge/Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](docs/video-landing.md)
+[![Documentation](https://img.shields.io/badge/Documentation-7C5DFA?style=for-the-badge&logo=gitbook&logoColor=white)](../../wiki)
+[![Download](https://img.shields.io/badge/Download-24B47E?style=for-the-badge&logo=github&logoColor=white)](../../releases)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <br/>
 
-[<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="24" /> Demo](../../) &nbsp;&nbsp;|&nbsp;&nbsp; 
+[<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="24" /> Demo](docs/video-landing.md) &nbsp;&nbsp;|&nbsp;&nbsp; 
 [📚 Docs](../../wiki) &nbsp;&nbsp;|&nbsp;&nbsp; 
 [🐛 Issues](../../issues) &nbsp;&nbsp;|&nbsp;&nbsp; 
 [🎯 Roadmap](../../projects)
