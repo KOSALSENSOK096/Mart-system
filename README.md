@@ -26,70 +26,81 @@
 
 </div>
 
-## ✨ Highlights
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="100">
-</div>
-
-<br/>
+## 📸 Application Screenshots
 
 <div align="center">
 
-| 🎨 Modern UI | 🔒 Security | 📊 Analytics | 🛠️ Features |
-|-------------|------------|-------------|-------------|
-| Dark Theme | User Authentication | Sales Tracking | Product Management |
-| Animations | Role-based Access | Revenue Reports | Inventory Control |
-| Responsive | Data Encryption | Performance Stats | Barcode Scanner |
-| Elegant Design | Session Management | Custom Reports | Multi-user Support |
+<details open>
+<summary>🔐 User Authentication</summary>
 
-</div>
+### Elegant Login Interface
+<img src="assets/screenshots/login.png" alt="Login Screen" width="600"/>
 
-## 🖥️ Screenshots
+> Beautiful dark-themed login with animated teapot icon and smooth transitions
 
-<div align="center">
+### Modern Registration
+<img src="assets/screenshots/register.png" alt="Registration Screen" width="600"/>
 
-<details>
-<summary>🔐 Authentication</summary>
-<br/>
-
-### Login Screen
-<img src="assets/screenshots/login.png" width="400" alt="Login">
-
-### Registration
-<img src="assets/screenshots/register.png" width="400" alt="Register">
+> User-friendly registration form with real-time validation and role selection
 
 </details>
 
 <details>
-<summary>📊 Main Features</summary>
-<br/>
+<summary>📊 Main Dashboard</summary>
 
-### Dashboard
-<img src="assets/screenshots/dashboard.png" width="800" alt="Dashboard">
+### Interactive Dashboard
+<img src="assets/screenshots/dashboard.png" alt="Dashboard" width="800"/>
 
-### Product Management
-<img src="assets/screenshots/products.png" width="800" alt="Products">
+> Comprehensive overview with:
+- Real-time sales metrics
+- Revenue analytics
+- Stock monitoring
+- Performance charts
 
 </details>
 
 <details>
-<summary>🛠️ Tools & Settings</summary>
-<br/>
+<summary>📦 Product Management</summary>
+
+### Product Catalog
+<img src="assets/screenshots/products.png" alt="Products" width="800"/>
+
+> Advanced product management with:
+- Search functionality
+- Stock tracking
+- Category organization
+- Price management
 
 ### Quick Actions
 <table>
 <tr>
-<td><img src="assets/screenshots/add-product.png" width="400" alt="Add Product"></td>
-<td><img src="assets/screenshots/barcode.png" width="400" alt="Barcode Scanner"></td>
+<td>
+<img src="assets/screenshots/add-product.png" alt="Add Product" width="400"/>
+<p align="center">Add New Product</p>
+</td>
+<td>
+<img src="assets/screenshots/barcode.png" alt="Barcode Scanner" width="400"/>
+<p align="center">Barcode Scanner</p>
+</td>
 </tr>
 </table>
 
-### System Management
+</details>
+
+<details>
+<summary>⚙️ System Features</summary>
+
+### Analytics & Settings
 <table>
 <tr>
-<td><img src="assets/screenshots/reports.png" width="400" alt="Reports"></td>
-<td><img src="assets/screenshots/settings.png" width="400" alt="Settings"></td>
+<td>
+<img src="assets/screenshots/reports.png" alt="Reports" width="400"/>
+<p align="center">Detailed Reports</p>
+</td>
+<td>
+<img src="assets/screenshots/settings.png" alt="Settings" width="400"/>
+<p align="center">System Settings</p>
+</td>
 </tr>
 </table>
 
