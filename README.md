@@ -1,81 +1,34 @@
-# Mart Manager
+# Mart-system
 
-A modern point of sale and inventory management system with beautiful receipt generation.
+A comprehensive Tea House Management System built with Python and customtkinter.
 
 ## Features
 
-- 🛍️ Modern and intuitive user interface
-- 📊 Real-time sales tracking and analytics
-- 🧾 Beautiful receipt generation with modern design
-- 📦 Inventory management
-- 👥 User management with role-based access
-- 📈 Sales reports and analytics
-- 🔍 Barcode scanning support
-- 💾 Automatic data backup
-- 📱 Responsive design
-- 🌙 Dark mode support
+- User Authentication (Login/Register)
+- Role-based Access Control (Admin/Staff)
+- Product Management
+- Sales Tracking
+- User Management
+- Reports Generation
+- Modern UI with Dark Theme
 
-## Requirements
+## Technologies
 
-- Python 3.8 or higher
-- MySQL 5.7 or higher
-- pip (Python package installer)
+- Python
+- CustomTkinter for modern UI
+- MySQL Database
+- BCrypt for password hashing
 
-## Installation
+## Getting Started
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/mart-manager.git
-cd mart-manager
-```
+1. Ensure you have Python installed
+2. Install required dependencies
+3. Set up MySQL database
+4. Run the application using `python main.py`
 
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+## License
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-4. Configure the database:
-- Copy `config_example.py` to `config.py`
-- Update the database settings in `config.py`
-- Create a MySQL database named 'mart_db'
-
-5. Initialize the database:
-```bash
-python setup.py
-```
-
-## Usage
-
-1. Start the application:
-```bash
-python main.py
-```
-
-2. Login with default admin credentials:
-- Username: admin
-- Password: admin123
-
-3. Change the default password after first login.
-
-## Receipt Features
-
-The application generates beautiful, modern receipts with:
-
-- 🎨 Clean, professional design
-- 📝 Comprehensive transaction details
-- 💫 Modern styling with icons
-- 📊 Clear item breakdown
-- 💰 Tax and discount calculations
-- 💳 Multiple payment method support
-- ✨ Automatic backup saves
-- 🔍 QR code for digital copy
-- 📱 Mobile-friendly format
+This project is licensed under the MIT License.
 
 ## Directory Structure
 
@@ -100,10 +53,6 @@ mart-manager/
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
 
