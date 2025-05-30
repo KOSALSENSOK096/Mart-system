@@ -26,17 +26,37 @@
 
 </div>
 
-## 🎥 Demo Video
+## 🎥 Demo Video Showcase
 
 <div align="center">
 
-### Watch Mart System in Action
+### 🌟 Experience Mart System in Action
 
-<a href="assets/demo/mart-system-demo.mp4">
-<img src="assets/screenshots/dashboard.png" alt="Watch Demo Video" width="800"/>
+<a href="https://github.com/KOSALSENSOK096/Mart-system/blob/main/assets/demo/mart-system-demo.mp4">
+<img src="assets/screenshots/dashboard.png" alt="Watch Demo Video" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
 </a>
 
-> 🎬 Click the image above to watch the demo video
+> 🎬 **[Click here to watch the full demo video](https://github.com/KOSALSENSOK096/Mart-system/blob/main/assets/demo/mart-system-demo.mp4)**
+
+### 🎯 Video Highlights & Timestamps
+
+<details open>
+<summary>📋 Quick Navigation</summary>
+
+| Time  | Feature Showcase |
+|-------|-----------------|
+| 0:00  | 🚀 Welcome & Introduction |
+| 0:30  | 🔐 User Authentication |
+| 1:00  | 📊 Interactive Dashboard |
+| 1:30  | 📦 Product Management |
+| 2:00  | 💰 Sales & Transactions |
+| 2:30  | 📈 Reports & Analytics |
+| 3:00  | ⚙️ System Settings |
+| 4:00  | 🎨 UI/UX Features |
+| 4:30  | 🔍 Advanced Search |
+| 5:00  | ✨ Conclusion |
+
+</details>
 
 ### ✨ Key Features Demonstrated
 
@@ -64,6 +84,20 @@ Reports
 </td>
 </tr>
 </table>
+
+### 📝 Video Notes
+
+<details>
+<summary>💡 Tips for Viewers</summary>
+
+- 🎥 The video is best viewed in full screen (press `F` key)
+- 🔊 Enable sound for narration and UI feedback
+- 📱 Available in HD quality (1080p)
+- ⚡ Use video controls to navigate to specific features
+- 🎯 Check timestamps above for quick navigation
+- 💻 Demo shows real-world usage scenarios
+
+</details>
 
 </div>
 
