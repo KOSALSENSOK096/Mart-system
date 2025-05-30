@@ -8,11 +8,14 @@ on:
 
 env:
   PYTHON_VERSION: '3.8.18'
+  CACHE_VERSION: 1
 
 jobs:
-  build:
+  setup:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
+    outputs:
+      cache-hit: ${{ steps.cache-deps.outputs.cache-hit }}
     
     steps:
       - uses: actions/checkout@v3
@@ -25,27 +28,56 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
           check-latest: true
       
-      - name: Cache pip packages
+      - name: Get pip cache dir
+        id: pip-cache
+        run: |
+          echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache dependencies
+        id: cache-deps
         uses: actions/cache@v3
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          path: |
+            ${{ steps.pip-cache.outputs.dir }}
+            ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ env.CACHE_VERSION }}-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
+            ${{ runner.os }}-pip-${{ env.CACHE_VERSION }}-
             ${{ runner.os }}-pip-
         continue-on-error: true
-          
-      - name: Create environment file
-        run: |
-          echo "PYTHON_VERSION=${{ env.PYTHON_VERSION }}" > .env
-          
-      - name: Install dependencies
+
+      - name: Install base dependencies
+        if: steps.cache-deps.outputs.cache-hit != 'true'
         run: |
           python -m pip install --upgrade pip --no-cache-dir
           pip install --no-cache-dir wheel setuptools
+
+      - name: Install project dependencies
+        run: |
           if [ -f requirements.txt ]; then
             pip install --no-cache-dir -r requirements.txt
           fi
-        
+
+  test:
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip --no-cache-dir
+          if [ -f requirements.txt ]; then
+            pip install --no-cache-dir -r requirements.txt
+          fi
+      
       - name: Run tests
         env:
           PYTHONPATH: ${{ github.workspace }}
@@ -53,13 +85,33 @@ jobs:
           if [ -d tests ]; then
             python -m pytest tests/ --cache-clear
           fi
-        
+
+  build:
+    needs: [setup, test]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip --no-cache-dir
+          if [ -f requirements.txt ]; then
+            pip install --no-cache-dir -r requirements.txt
+          fi
+      
       - name: Build and verify
         run: |
           echo "Building and verifying project..."
           python -c "import sys; print(f'Python {sys.version}')"
           python -c "import platform; print(f'Platform: {platform.platform()}')"
-          
+      
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         if: success()
@@ -73,8 +125,13 @@ jobs:
             !**/__pycache__
             !**.pyc
           retention-days: 5
-        
+
+  cleanup:
+    needs: [setup, test, build]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
       - name: Cleanup
-        if: always()
         run: |
+          echo "Cleaning up resources..."
           rm -rf ~/.cache/pip 
